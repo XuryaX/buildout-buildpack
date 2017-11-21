@@ -1,0 +1,38 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: Shauryadeep Chaudhuri <shaurya@Shauryadeeps-MacBook-Air.local>
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Untracked files:
+#	.dockerignore
+#	.gitignore
+#	.travis.yml
+#	CHANGELOG.md
+#	COMMIT_EDITMSG
+#	Dockerfile
+#	HEAD
+#	Makefile
+#	NOTICE
+#	Pipfile
+#	Pipfile.lock
+#	README.md
+#	bin/
+#	builds/
+#	config
+#	description
+#	hooks/
+#	index
+#	info/
+#	logs/
+#	objects/
+#	packed-refs
+#	refs/
+#	requirements.txt
+#	test/
+#	tests.sh
+#	vendor/
+#
