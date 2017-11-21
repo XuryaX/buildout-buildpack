@@ -6,7 +6,7 @@ if [ ! "$SKIP_PIP_INSTALL" ]; then
     puts-step "Installing requirements with pip"
 
     set +e
-
+    /app/.heroku/python/bin/pip install virtualenv
     /app/.heroku/python/bin/python "$BUILD_DIR/bootstrap.py"
     $BUILD_DIR/bin/buildout -v
 
