@@ -9,6 +9,9 @@ if [ ! "$SKIP_PIP_INSTALL" ]; then
     /app/.heroku/python/bin/pip install virtualenv
     /app/.heroku/python/bin/python "$BUILD_DIR/bootstrap.py"
     $BUILD_DIR/bin/buildout -v
+    
+
+    /app/.heroku/python/bin/pip install -r "$BUILD_DIR/requirements.txt" --exists-action=w --src=/app/.heroku/src --disable-pip-version-check --no-cache-dir 2>&1 | tee "$WARNINGS_LOG" | cleanup | indent
 
     echo
 fi
